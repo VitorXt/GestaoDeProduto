@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{800D2C92-5C81-4854-A230-EE3A4E903B9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data", "2 - Data", "{75FA5CC8-BD19-4DBE-927E-719372A58E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{5A47DCE9-B434-4A99-8F21-83D3F4C36361}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoDeProduto.Domain", "GestaoDeProduto.Domain\GestaoDeProduto.Domain.csproj", "{D0C8C6AF-C70A-4B5A-AB56-EF490BD2C132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoDeProduto.Data", "GestaoDeProduto.Data\GestaoDeProduto.Data.csproj", "{768C7EF8-8688-48FB-A221-F80C38528104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0C8C6AF-C70A-4B5A-AB56-EF490BD2C132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C8C6AF-C70A-4B5A-AB56-EF490BD2C132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C8C6AF-C70A-4B5A-AB56-EF490BD2C132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C8C6AF-C70A-4B5A-AB56-EF490BD2C132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768C7EF8-8688-48FB-A221-F80C38528104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768C7EF8-8688-48FB-A221-F80C38528104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768C7EF8-8688-48FB-A221-F80C38528104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768C7EF8-8688-48FB-A221-F80C38528104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0C8C6AF-C70A-4B5A-AB56-EF490BD2C132} = {800D2C92-5C81-4854-A230-EE3A4E903B9A}
+		{768C7EF8-8688-48FB-A221-F80C38528104} = {75FA5CC8-BD19-4DBE-927E-719372A58E09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BF4E97-751B-4ED5-BCE3-F959FF3D9858}
+	EndGlobalSection
+EndGlobal
