@@ -24,29 +24,24 @@ namespace GestaoDeProduto.Domain.Entities
 
         #region - Propriedades
 
+        public int Codigo { get; private set; }
         public String Nome { get; private set; }
         public int Estoque { get; private set; }
         public decimal Valor { get; private set; }
-        public bool Ativo { get; private set; }
         public DateTime DataCadastro { get; private set; }
+        public bool Ativo { get; private set; }
 
         #endregion
 
         #region - Comportamentos
 
-        public void AdicionarEstoque(int qtdEstoque)
-        {
-            Estoque = Estoque + qtdEstoque;
-        }
-        public void BaixarEstoque(int qtdEstoque)
-        {
-            Estoque = Estoque - qtdEstoque;
-        }
+        public void AdicionarEstoque(int qtdEstoque) => Estoque += qtdEstoque;
+        public void BaixarEstoque(int qtdEstoque) => Estoque -= qtdEstoque;
+        public void Ativar() => Ativo = true;
         public void Desativar() => Ativo = false;
-        public void AlterarNome(string novoNome)
-        {
-            Nome = novoNome;
-        }
+        public void AlterarNome(string novoNome) => Nome = novoNome;
+
+        public void AtribuirCodigo(int codigo) => Codigo = codigo;
 
         #endregion
     }
